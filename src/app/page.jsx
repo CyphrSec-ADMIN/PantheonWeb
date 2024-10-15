@@ -18,7 +18,7 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
   description:
-    'Radiant helps you sell more by revealing sensitive information about your customers.',
+    'Pantheon Security - Fortifying Legacy Systems with AI-Powered Cybersecurity.',
 }
 
 function Hero() {
