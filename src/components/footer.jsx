@@ -10,20 +10,19 @@ function CallToAction() {
   return (
     <div className="relative pb-16 pt-20 text-center sm:py-24">
       <hgroup>
-        <Subheading>Get started</Subheading>
+        <Subheading>Join Us Today</Subheading>
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-          Ready to dive in?
+          Ready to secure your legacy systems?
           <br />
-          Start your free trial today.
+          Start your journey with Pantheon Security.
         </p>
       </hgroup>
       <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Get the cheat codes for selling and unlock your team&apos;s revenue
-        potential.
+        Discover how our AI-driven solutions can protect your critical infrastructure.
       </p>
       <div className="mt-6">
         <Button className="w-full sm:w-auto" href="#">
-          Get started
+          Get Started Now
         </Button>
       </div>
     </div>
@@ -53,34 +52,32 @@ function Sitemap() {
   return (
     <>
       <div>
-        <SitemapHeading>Product</SitemapHeading>
+        <SitemapHeading>Quick Links</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="/pricing">Pricing</SitemapLink>
-          <SitemapLink href="#">Analysis</SitemapLink>
-          <SitemapLink href="#">API</SitemapLink>
-        </SitemapLinks>
-      </div>
-      <div>
-        <SitemapHeading>Company</SitemapHeading>
-        <SitemapLinks>
+          <SitemapLink href="#">Solutions</SitemapLink>
+          <SitemapLink href="#">Heimdall</SitemapLink>
+          <SitemapLink href="#">Metis</SitemapLink>
+          <SitemapLink href="#">Pricing</SitemapLink>
+          <SitemapLink href="#">Blog</SitemapLink>
           <SitemapLink href="#">Careers</SitemapLink>
-          <SitemapLink href="/blog">Blog</SitemapLink>
-          <SitemapLink href="/company">Company</SitemapLink>
+          <SitemapLink href="#">Resources</SitemapLink>
         </SitemapLinks>
       </div>
       <div>
-        <SitemapHeading>Support</SitemapHeading>
+        <SitemapHeading>Support Center</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="#">Help center</SitemapLink>
-          <SitemapLink href="#">Community</SitemapLink>
+          <SitemapLink href="#">Case Studies</SitemapLink>
+          <SitemapLink href="#">Whitepapers</SitemapLink>
+          <SitemapLink href="#">API Documentation</SitemapLink>
+          <SitemapLink href="#">Security Compliance</SitemapLink>
+          <SitemapLink href="#">Contact Us</SitemapLink>
         </SitemapLinks>
       </div>
       <div>
-        <SitemapHeading>Company</SitemapHeading>
-        <SitemapLinks>
-          <SitemapLink href="#">Terms of service</SitemapLink>
-          <SitemapLink href="#">Privacy policy</SitemapLink>
-        </SitemapLinks>
+        <SitemapHeading>Contact</SitemapHeading>
+        <p>Email: support@pantheonsecurity.com</p>
+        <p>Phone: +1 (800) 123-4567</p>
+        <p>Address: 1234 Cyber Ave, Security City, ST 56789</p>
       </div>
     </>
   )
@@ -118,22 +115,6 @@ function SocialLinks() {
   return (
     <>
       <Link
-        href="https://facebook.com"
-        target="_blank"
-        aria-label="Visit us on Facebook"
-        className="text-gray-950 data-[hover]:text-gray-950/75"
-      >
-        <SocialIconFacebook className="size-4" />
-      </Link>
-      <Link
-        href="https://x.com"
-        target="_blank"
-        aria-label="Visit us on X"
-        className="text-gray-950 data-[hover]:text-gray-950/75"
-      >
-        <SocialIconX className="size-4" />
-      </Link>
-      <Link
         href="https://linkedin.com"
         target="_blank"
         aria-label="Visit us on LinkedIn"
@@ -141,6 +122,23 @@ function SocialLinks() {
       >
         <SocialIconLinkedIn className="size-4" />
       </Link>
+      <Link
+        href="https://twitter.com"
+        target="_blank"
+        aria-label="Visit us on Twitter"
+        className="text-gray-950 data-[hover]:text-gray-950/75"
+      >
+        <SocialIconX className="size-4" />
+      </Link>
+      <Link
+        href="https://facebook.com"
+        target="_blank"
+        aria-label="Visit us on Facebook"
+        className="text-gray-950 data-[hover]:text-gray-950/75"
+      >
+        <SocialIconFacebook className="size-4" />
+      </Link>
+      {/* Add YouTube Icon here */}
     </>
   )
 }
@@ -148,7 +146,7 @@ function SocialLinks() {
 function Copyright() {
   return (
     <div className="text-sm/6 text-gray-950">
-      &copy; {new Date().getFullYear()} Radiant Inc.
+      &copy; 2024 Pantheon Security, Inc. All rights reserved.
     </div>
   )
 }

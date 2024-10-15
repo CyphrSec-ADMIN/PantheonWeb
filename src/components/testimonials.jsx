@@ -19,43 +19,43 @@ const testimonials = [
   {
     img: '/testimonials/tina-yards.jpg',
     name: 'Tina Yards',
-    title: 'VP of Sales, Protocol',
+    title: 'CISO, Global Finance',
     quote:
-      'Thanks to Radiant, we’re finding new leads that we never would have found with legal methods.',
+      'Heimdall’s revealed hidden vulnerabilities, securing our legacy systems like our modern ones.',
   },
   {
     img: '/testimonials/conor-neville.jpg',
     name: 'Conor Neville',
-    title: 'Head of Customer Success, TaxPal',
+    title: 'Head of IT, Manufacturing',
     quote:
-      'Radiant made undercutting all of our competitors an absolute breeze.',
+      'The integration process was seamless. we’ve fortified our legacy systems without disrupting day-to-day operations.',
   },
   {
     img: '/testimonials/amy-chase.jpg',
     name: 'Amy Chase',
-    title: 'Head of GTM, Pocket',
+    title: 'Security Manager, Healthcare',
     quote:
-      'We closed a deal in literally a few minutes because we knew their exact budget.',
+      'Pantheon’s continuous monitoring and vulnerability assessment have significantly reduced our risk exposure."',
   },
   {
     img: '/testimonials/veronica-winton.jpg',
     name: 'Veronica Winton',
-    title: 'CSO, Planeteria',
+    title: 'CTO, Energy Sector',
     quote:
-      'We’ve managed to put two of our main competitors out of business in 6 months.',
+      'With a tailored strategy that addressed our unique challenges, we’ve never felt more confident in our defenses.',
   },
   {
     img: '/testimonials/dillon-lenora.jpg',
     name: 'Dillon Lenora',
-    title: 'VP of Sales, Detax',
-    quote: 'I was able to replace 80% of my team with RadiantAI bots.',
+    title: 'CIO, Tech Startup',
+    quote: 'we’ve achieved unprecedented security, letting our team focus on innovation over constant firefighting.',
   },
   {
     img: '/testimonials/harriet-arron.jpg',
     name: 'Harriet Arron',
     title: 'Account Manager, Commit',
     quote:
-      'I’ve smashed all my targets without having to speak to a lead in months.',
+      'Pantheon’s seamless integration and AI-driven insights have been invaluable in safeguarding our sensitive data.',
   },
 ]
 
@@ -147,8 +147,7 @@ function CallToAction() {
   return (
     <div>
       <p className="max-w-sm text-sm/6 text-gray-600">
-        Join the best sellers in the business and start using Radiant to hit
-        your targets today.
+        Join leading organizations in securing their systems and start using Pantheon Security to strengthen your defenses today.
       </p>
       <div className="mt-2">
         <Link

@@ -27,15 +27,15 @@ function Hero() {
       <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" />
       <Container className="relative">
         <Navbar
-          banner={
-            <Link
-              href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
-              className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
-            >
-              Radiant raises $100M Series A from Tailwind Ventures
-              <ChevronRightIcon className="size-4" />
-            </Link>
-          }
+          // banner={
+          //   <Link
+          //     href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
+          //     className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
+          //   >
+          //     Radiant raises $100M Series A from Tailwind Ventures
+          //     <ChevronRightIcon className="size-4" />
+          //   </Link>
+          // }
         />
         <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32">
           <h1 className="font-display text-balance text-6xl/[0.9] font-medium tracking-tight text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
@@ -152,17 +152,22 @@ function DarkBentoSection() {
   return (
     <div className="mx-2 mt-2 rounded-4xl bg-gray-900 py-32">
       <Container>
-        <Subheading dark>Outreach</Subheading>
-        <Heading as="h3" dark className="mt-2 max-w-3xl">
-          Customer outreach has never been easier.
+        <Subheading dark>METIS – STRATEGIC CYBERSECURITY CONSULTANCY</Subheading>
+        <Heading as="h3" dark className="mt-2 max-w-2xl">
+          Tailored strategies for
+comprehensive legacy
+system protection.
         </Heading>
+        <Subheading dark>Transform Your Security Approach. Metis provides expert consulting to help you secure even the most
+complex infrastructures.</Subheading>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <BentoCard
             dark
-            eyebrow="Networking"
-            title="Sell at the speed of light"
-            description="Our RadiantAI chat assistants analyze the sentiment of your conversations in real time, ensuring you're always one step ahead."
+            eyebrow="CYBERSECURITY CONSULTANCY"
+            title="Bespoke Solutions for Every Challenge"
+            description="Metis delivers customized strategies based on your unique infrastructure needs, whether
+modern or legacy."
             graphic={
               <div className="h-80 bg-[url(/screenshots/networking.png)] bg-[size:851px_344px] bg-no-repeat" />
             }
@@ -171,26 +176,29 @@ function DarkBentoSection() {
           />
           <BentoCard
             dark
-            eyebrow="Integrations"
-            title="Meet leads where they are"
-            description="With thousands of integrations, no one will be able to escape your cold outreach."
+            eyebrow="IN-DEPTH ANALYSIS"
+            title="Know Where You Stand"
+            description="Our experts conduct detailed assessments of your systems, uncovering vulnerabilities and
+creating actionable plans to fortify your defenses."
             graphic={<LogoTimeline />}
             // `!overflow-visible` is needed to work around a Chrome bug that disables the mask on the graphic.
             className="z-10 !overflow-visible lg:col-span-2 lg:rounded-tr-4xl"
           />
           <BentoCard
             dark
-            eyebrow="Meetings"
-            title="Smart call scheduling"
-            description="Automatically insert intro calls into your leads' calendars without their consent."
+            eyebrow="IMPLEMENTATION & OPTIMIZATION"
+            title="Hands-On Support"
+            description="From planning to execution, Metis provides hands-on support for deploying solutions and
+optimizing security across your organization."
             graphic={<LinkedAvatars />}
             className="lg:col-span-2 lg:rounded-bl-4xl"
           />
           <BentoCard
             dark
-            eyebrow="Engagement"
-            title="Become a thought leader"
-            description="RadiantAI automatically writes LinkedIn posts that relate current events to B2B sales, helping you build a reputation as a thought leader."
+            eyebrow="ONGOING GUIDANCE"
+            title="Continuous Improvement"
+            description="Our team stays with you, offering ongoing consultancy and support as threats evolve and your
+business grows."
             graphic={
               <div className="h-80 bg-[url(/screenshots/engagement.png)] bg-[size:851px_344px] bg-no-repeat" />
             }
@@ -209,7 +217,7 @@ export default function Home() {
       <Hero />
       <main>
         <Container className="mt-10">
-          <LogoCloud />
+          {/* <LogoCloud /> */}
         </Container>
         <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-32">
           <FeatureSection />
