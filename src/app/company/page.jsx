@@ -9,34 +9,25 @@ import { Heading, Lead, Subheading } from '@/components/text'
 export const metadata = {
   title: 'Company',
   description:
-    'We’re on a mission to transform revenue organizations by harnessing vast amounts of illegally acquired customer data.',
+    'Fortifying Legacy Systems with AI-Powered Cybersecurity.',
 }
 
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Helping companies generate revenue.</Heading>
+      <Heading as="h1">Fortifying Legacy Systems with AI-Powered Cybersecurity</Heading>
       <Lead className="mt-6 max-w-3xl">
-        We’re on a mission to transform revenue organizations by harnessing vast
-        amounts of illegally acquired customer data.
+        Pantheon Security offers comprehensive AI-driven cybersecurity solutions tailored to protect legacy systems, bridging the gap between outdated infrastructure and modern security needs.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
-          <h2 className="text-2xl font-medium tracking-tight">Our mission</h2>
+          <h2 className="text-2xl font-medium tracking-tight">The Legacy System Security Challenge</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-            At Radiant, we are dedicated to transforming the way revenue
-            organizations source and close deals. Our mission is to provide our
-            customers with an unfair advantage over both their competitors and
-            potential customers through insight and analysis. We’ll stop at
-            nothing to get you the data you need to close a deal.
+            Legacy systems form the backbone of many organizations, but they're often the most vulnerable to cyber threats. These outdated infrastructures create blind spots, making it difficult to identify and mitigate risks comprehensively. Traditional security tools fall short, leaving your critical assets exposed.
+
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
-            We’re customer-obsessed — putting the time in to build a detailed
-            financial picture of every one of our customers so that we know more
-            about your business than you do. We are in this together, mostly
-            because we are all implicated in large-scale financial crime. In our
-            history as a company, we’ve never lost a customer, because if any
-            one of us talks, we all go down.
+            Cybersecurity costs continue to rise, especially for organizations with outdated infrastructure. AI introduces new threats that require continuous monitoring and adaptation. Pantheon Security is here to address these challenges by offering scalable, cost-effective solutions.
           </p>
         </div>
         <div className="pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -71,7 +62,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="max-lg:mt-16 lg:col-span-1">
+        {/* <div className="max-lg:mt-16 lg:col-span-1">
           <Subheading>The Numbers</Subheading>
           <hr className="mt-6 border-t border-gray-200" />
           <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
@@ -100,8 +91,29 @@ function Header() {
               </dd>
             </div>
           </dl>
+        </div> */}
+        <div className="max-w-lg">
+          <h2 className="text-2xl font-medium tracking-tight">Our AI-Powered Security Arsenal</h2>
+          <p className="mt-6 text-sm/6 text-gray-600">
+            Pantheon Security leverages cutting-edge AI technology to safeguard legacy systems:
+          </p>
+          <ul className="mt-4 list-disc pl-5 text-sm/6 text-gray-600">
+            <li>
+              <strong>Real-Time Attack Surface Monitoring:</strong> Our AI-driven platform continuously maps and monitors your entire infrastructure, using advanced machine learning models for real-time vulnerability detection across both legacy and modern systems. You’ll have a constant view of your security posture via interactive dashboards.
+            </li>
+            <li className="mt-2">
+              <strong>Innovative Threat Intelligence Gathering:</strong> We utilize data scraping and natural language processing to gather and analyze threat intelligence from across the web, including dark web forums. This keeps you one step ahead of emerging cyber threats.
+            </li>
+            <li className="mt-2">
+              <strong>AI-Powered Penetration Testing:</strong> Our AI bots simulate sophisticated cyberattacks, continuously probing your defenses to uncover weaknesses before real attackers can exploit them. These automated pen tests adapt strategies based on your infrastructure's unique profile.
+            </li>
+            <li className="mt-2">
+              <strong>Intelligent Legacy System Integration:</strong> Our AI seamlessly integrates modern security protocols into legacy systems, analyzing infrastructure and recommending optimal security measures with minimal disruption to operations.
+            </li>
+          </ul>
         </div>
       </section>
+      
     </Container>
   )
 }
@@ -221,19 +233,15 @@ function Team() {
   )
 }
 
-function Investors() {
+function Benefits() {
   return (
-    <Container className="mt-32">
-      <Subheading>Investors</Subheading>
-      <Heading as="h3" className="mt-2">
-        Funded by industry-leaders.
-      </Heading>
+    <Container className="mt-32 mb-16"> {/* Added mb-16 for bottom margin */}
+      <Subheading>A Pantheon of AI Sentinels Guards Your Legacy</Subheading>
       <Lead className="mt-6 max-w-3xl">
-        We are fortunate to be backed by the best investors in the industry —
-        both literal and metaphorical partners in crime.
+        Pantheon Security offers end-to-end, AI-powered cybersecurity designed specifically for organizations with complex legacy systems. Our suite of solutions is inspired by mythological protectors, providing vigilant and adaptive security across all fronts.
       </Lead>
       <Subheading as="h3" className="mt-24">
-        Venture Capital
+        Key Services
       </Subheading>
       <hr className="mt-6 border-t border-gray-200" />
       <ul
@@ -241,68 +249,27 @@ function Investors() {
         className="mx-auto mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2"
       >
         <li>
-          <img
-            alt="Remington Schwartz"
-            src="/investors/remington-schwartz.svg"
-            className="h-14"
-          />
+          <h3 className="text-xl font-semibold">Heimdall: Attack Surface Management</h3>
           <p className="mt-6 max-w-lg text-sm/6 text-gray-500">
-            Remington Schwartz has been a driving force in the tech industry,
-            backing bold entrepreneurs who explore grey areas in financial and
-            privacy law. Their deep industry expertise and extensive political
-            lobbying provide their portfolio companies with favorable regulation
-            and direct access to lawmakers.
+            Named after the vigilant Norse god, Heimdall offers:
           </p>
+          <ul className="mt-4 list-disc pl-5 text-sm/6 text-gray-600">
+            <li>Comprehensive asset discovery across fragmented infrastructures</li>
+            <li>AI-powered vulnerability scanning for both legacy and modern systems</li>
+            <li>Continuous monitoring and prioritized remediation planning</li>
+          </ul>
         </li>
         <li>
-          <img alt="Deccel" src="/investors/deccel.svg" className="h-14" />
+          <h3 className="text-xl font-semibold">Metis: Strategic Cybersecurity Consultancy</h3>
           <p className="mt-6 max-w-lg text-sm/6 text-gray-500">
-            Deccel has been at the forefront of innovation, investing in
-            pioneering companies across various sectors, including technology,
-            consumer goods, and healthcare. Their philosophy of ‘plausible
-            deniability’ and dedication to looking the other way have helped
-            produce some of the world’s most controversial companies.
+            Inspired by the wisdom of the Greek titaness Metis, this service provides:
           </p>
+          <ul className="mt-4 list-disc pl-5 text-sm/6 text-gray-600">
+            <li>In-depth analysis of your organization’s cybersecurity needs</li>
+            <li>Customized implementation strategies</li>
+            <li>Ongoing optimization of security measures to meet evolving challenges</li>
+          </ul>
         </li>
-      </ul>
-      <Subheading as="h3" className="mt-24">
-        Individual investors
-      </Subheading>
-      <hr className="mt-6 border-t border-gray-200" />
-      <ul
-        role="list"
-        className="mx-auto mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
-      >
-        <Person
-          name="Kristin Watson"
-          description="TechNexus Ventures"
-          img="/individual-investors/kristin-watson.jpg"
-        />
-        <Person
-          name="Emma Dorsey"
-          description="Innovate Capital Partners"
-          img="/individual-investors/emma-dorsey.jpg"
-        />
-        <Person
-          name="Alicia Bell"
-          description="FutureWave Investments"
-          img="/individual-investors/alicia-bell.jpg"
-        />
-        <Person
-          name="Jenny Wilson"
-          description="SynergyTech Equity"
-          img="/individual-investors/jenny-wilson.jpg"
-        />
-        <Person
-          name="Anna Roberts"
-          description="NextGen Horizons"
-          img="/individual-investors/anna-roberts.jpg"
-        />
-        <Person
-          name="Benjamin Russel"
-          description="Pioneer Digital Ventures"
-          img="/individual-investors/benjamin-russel.jpg"
-        />
       </ul>
     </Container>
   )
@@ -340,112 +307,112 @@ function Testimonial() {
   )
 }
 
-function Careers() {
-  return (
-    <Container className="my-32">
-      <Subheading>Careers</Subheading>
-      <Heading as="h3" className="mt-2">
-        Join our fully remote team.
-      </Heading>
-      <Lead className="mt-6 max-w-3xl">
-        We work together from all over the world, mainly from locations without
-        extradition agreements.
-      </Lead>
-      <div className="mt-24 grid grid-cols-1 gap-16 lg:grid-cols-[1fr_24rem]">
-        <div className="lg:max-w-2xl">
-          <Subheading as="h3">Open positions</Subheading>
-          <div>
-            <table className="w-full text-left">
-              <colgroup>
-                <col className="w-2/3" />
-                <col className="w-1/3" />
-                <col className="w-0" />
-              </colgroup>
-              <thead className="sr-only">
-                <tr>
-                  <th scope="col">Title</th>
-                  <th scope="col">Location</th>
-                  <th scope="col">Read more</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="colgroup" colSpan={3} className="px-0 pb-0 pt-10">
-                    <div className="-mx-4 rounded-lg bg-gray-50 px-4 py-3 text-sm/6 font-semibold">
-                      Engineering
-                    </div>
-                  </th>
-                </tr>
-                <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                  <td className="px-0 py-4">iOS Developer</td>
-                  <td className="px-0 py-4 text-gray-600">Remote</td>
-                  <td className="px-0 py-4 text-right">
-                    <Button variant="outline" href="#">
-                      View listing
-                    </Button>
-                  </td>
-                </tr>
-                <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                  <td className="px-0 py-4">Backend Engineer</td>
-                  <td className="px-0 py-4 text-gray-600">Remote</td>
-                  <td className="px-0 py-4 text-right">
-                    <Button variant="outline" href="#">
-                      View listing
-                    </Button>
-                  </td>
-                </tr>
-                <tr className="text-sm/6 font-normal">
-                  <td className="px-0 py-4">Product Engineer</td>
-                  <td className="px-0 py-4 text-gray-600">Remote</td>
-                  <td className="px-0 py-4 text-right">
-                    <Button variant="outline" href="#">
-                      View listing
-                    </Button>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="colgroup" colSpan={3} className="px-0 pb-0 pt-5">
-                    <div className="-mx-4 rounded-lg bg-gray-50 px-4 py-3 text-sm/6 font-semibold">
-                      Design
-                    </div>
-                  </th>
-                </tr>
-                <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                  <td className="px-0 py-4">Principal Designer</td>
-                  <td className="px-0 py-4 text-gray-600">Remote</td>
-                  <td className="px-0 py-4 text-right">
-                    <Button variant="outline" href="#">
-                      View listing
-                    </Button>
-                  </td>
-                </tr>
-                <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                  <td className="px-0 py-4">Designer</td>
-                  <td className="px-0 py-4 text-gray-600">Remote</td>
-                  <td className="px-0 py-4 text-right">
-                    <Button variant="outline" href="#">
-                      View listing
-                    </Button>
-                  </td>
-                </tr>
-                <tr className="text-sm/6 font-normal">
-                  <td className="px-0 py-4">Senior Designer</td>
-                  <td className="px-0 py-4 text-gray-600">Remote</td>
-                  <td className="px-0 py-4 text-right">
-                    <Button variant="outline" href="#">
-                      View listing
-                    </Button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <Testimonial />
-      </div>
-    </Container>
-  )
-}
+// function Careers() {
+//   return (
+//     <Container className="my-32">
+//       <Subheading>Careers</Subheading>
+//       <Heading as="h3" className="mt-2">
+//         Join our fully remote team.
+//       </Heading>
+//       <Lead className="mt-6 max-w-3xl">
+//         We work together from all over the world, mainly from locations without
+//         extradition agreements.
+//       </Lead>
+//       <div className="mt-24 grid grid-cols-1 gap-16 lg:grid-cols-[1fr_24rem]">
+//         <div className="lg:max-w-2xl">
+//           <Subheading as="h3">Open positions</Subheading>
+//           <div>
+//             <table className="w-full text-left">
+//               <colgroup>
+//                 <col className="w-2/3" />
+//                 <col className="w-1/3" />
+//                 <col className="w-0" />
+//               </colgroup>
+//               <thead className="sr-only">
+//                 <tr>
+//                   <th scope="col">Title</th>
+//                   <th scope="col">Location</th>
+//                   <th scope="col">Read more</th>
+//                 </tr>
+//               </thead>
+//               <tbody>
+//                 <tr>
+//                   <th scope="colgroup" colSpan={3} className="px-0 pb-0 pt-10">
+//                     <div className="-mx-4 rounded-lg bg-gray-50 px-4 py-3 text-sm/6 font-semibold">
+//                       Engineering
+//                     </div>
+//                   </th>
+//                 </tr>
+//                 <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
+//                   <td className="px-0 py-4">iOS Developer</td>
+//                   <td className="px-0 py-4 text-gray-600">Remote</td>
+//                   <td className="px-0 py-4 text-right">
+//                     <Button variant="outline" href="#">
+//                       View listing
+//                     </Button>
+//                   </td>
+//                 </tr>
+//                 <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
+//                   <td className="px-0 py-4">Backend Engineer</td>
+//                   <td className="px-0 py-4 text-gray-600">Remote</td>
+//                   <td className="px-0 py-4 text-right">
+//                     <Button variant="outline" href="#">
+//                       View listing
+//                     </Button>
+//                   </td>
+//                 </tr>
+//                 <tr className="text-sm/6 font-normal">
+//                   <td className="px-0 py-4">Product Engineer</td>
+//                   <td className="px-0 py-4 text-gray-600">Remote</td>
+//                   <td className="px-0 py-4 text-right">
+//                     <Button variant="outline" href="#">
+//                       View listing
+//                     </Button>
+//                   </td>
+//                 </tr>
+//                 <tr>
+//                   <th scope="colgroup" colSpan={3} className="px-0 pb-0 pt-5">
+//                     <div className="-mx-4 rounded-lg bg-gray-50 px-4 py-3 text-sm/6 font-semibold">
+//                       Design
+//                     </div>
+//                   </th>
+//                 </tr>
+//                 <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
+//                   <td className="px-0 py-4">Principal Designer</td>
+//                   <td className="px-0 py-4 text-gray-600">Remote</td>
+//                   <td className="px-0 py-4 text-right">
+//                     <Button variant="outline" href="#">
+//                       View listing
+//                     </Button>
+//                   </td>
+//                 </tr>
+//                 <tr className="border-b border-dotted border-gray-200 text-sm/6 font-normal">
+//                   <td className="px-0 py-4">Designer</td>
+//                   <td className="px-0 py-4 text-gray-600">Remote</td>
+//                   <td className="px-0 py-4 text-right">
+//                     <Button variant="outline" href="#">
+//                       View listing
+//                     </Button>
+//                   </td>
+//                 </tr>
+//                 <tr className="text-sm/6 font-normal">
+//                   <td className="px-0 py-4">Senior Designer</td>
+//                   <td className="px-0 py-4 text-gray-600">Remote</td>
+//                   <td className="px-0 py-4 text-right">
+//                     <Button variant="outline" href="#">
+//                       View listing
+//                     </Button>
+//                   </td>
+//                 </tr>
+//               </tbody>
+//             </table>
+//           </div>
+//         </div>
+//         <Testimonial />
+//       </div>
+//     </Container>
+//   )
+// }
 
 export default function Company() {
   return (
@@ -455,9 +422,9 @@ export default function Company() {
         <Navbar />
       </Container>
       <Header />
-      <Team />
-      <Investors />
-      <Careers />
+      {/* <Team /> */}
+      <Benefits />
+      {/* <Careers /> */}
       <Footer />
     </main>
   )
