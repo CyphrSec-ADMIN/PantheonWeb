@@ -33,8 +33,7 @@ function Hero() {
 Security.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-white/75 sm:text-2xl/8">
-            Fortifying Legacy Systems with AI-Powered
-Cybersecurity.
+           AI-powered security, bridging the gap between legacy systems and modern threats.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#" className="text-white">Get started</Button>
@@ -50,8 +49,7 @@ function FeatureSection() {
     <div className="overflow-hidden bg-gray-900">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl text-white">
-          A snapshot of your entire
-Threat Landscape.
+          Gain full visibility and control over your security landscape, all within a single, unified platform
         </Heading>
         <video
           width={1216}
@@ -139,22 +137,18 @@ function DarkBentoSection() {
   return (
     <div className="mx-2 mt-2 rounded-4xl bg-black py-32">
       <Container>
-        <Subheading dark className="text-white">METIS – STRATEGIC CYBERSECURITY CONSULTANCY</Subheading>
+        <Subheading dark className="text-white">Pantheon: AI-Powered Defense for Legacy Systems</Subheading>
         <Heading as="h3" dark className="mt-2 max-w-2xl text-white">
-          Tailored strategies for
-comprehensive legacy
-system protection.
+          A suite of AI-native tools built for 24/7 protection, .
         </Heading>
-        <Subheading dark className="text-white">Transform Your Security Approach. Metis provides expert consulting to help you secure even the most
-complex infrastructures.</Subheading>
+        <Subheading dark className="text-white">Experience complete visibility and management of your security landscape, all from one centralized platform</Subheading>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <BentoCard
             dark
-            eyebrow="CYBERSECURITY CONSULTANCY"
-            title="Bespoke Solutions for Every Challenge"
-            description="Metis delivers customized strategies based on your unique infrastructure needs, whether
-modern or legacy."
+            eyebrow="Gain Full Visibility"
+            title="Comprehensive AI Monitoring All in One Place"
+            description="Pantheon Security brings together all your cybersecurity needs into a unified platform, including Attack Surface Management, OSINT, vulnerability detection, and testing tools. The entire process—from interaction to deployment and testing—occurs in one seamless environment, simplifying management and boosting efficiency.."
             graphic={
               <div className="h-80 bg-[url(/screenshots/networking.png)] bg-[size:851px_344px] bg-no-repeat" />
             }
@@ -163,29 +157,26 @@ modern or legacy."
           />
           <BentoCard
             dark
-            eyebrow="IN-DEPTH ANALYSIS"
-            title="Know Where You Stand"
-            description="Our experts conduct detailed assessments of your systems, uncovering vulnerabilities and
-creating actionable plans to fortify your defenses."
+            eyebrow="MONITORING"
+            title="Built for 24/7 Protection"
+            description="Our advanced AI enables around-the-clock monitoring and delivers continuous updates, threat detection, and proactive recommendations using the latest natural language processing capabilities."
             graphic={<LogoTimeline />}
             // `!overflow-visible` is needed to work around a Chrome bug that disables the mask on the graphic.
             className="z-10 !overflow-visible lg:col-span-2 lg:rounded-tr-4xl"
           />
           <BentoCard
             dark
-            eyebrow="IMPLEMENTATION & OPTIMIZATION"
-            title="Hands-On Support"
-            description="From planning to execution, Metis provides hands-on support for deploying solutions and
-optimizing security across your organization."
-            graphic={<LinkedAvatars />}
+            eyebrow="SEAMLESS INTEGRATION"
+            title="Legacy Meets Modern Security"
+            description="Our platform integrates effortlessly with your existing infrastructure, allowing you to deploy new security measures without disrupting day-to-day operations."
+              graphic={<LogoCluster />}
             className="lg:col-span-2 lg:rounded-bl-4xl"
           />
           <BentoCard
             dark
-            eyebrow="ONGOING GUIDANCE"
-            title="Continuous Improvement"
-            description="Our team stays with you, offering ongoing consultancy and support as threats evolve and your
-business grows."
+            eyebrow="AUTOMATED THREAT RESPONSE"
+            title="Respond Faster Than Ever"
+            description="Pantheon’s AI-driven threat response system automatically detects and mitigates threats in real time, significantly reducing the time between detection and resolution."
             graphic={
               <div className="h-80 bg-[url(/screenshots/engagement.png)] bg-[size:851px_344px] bg-no-repeat" />
             }

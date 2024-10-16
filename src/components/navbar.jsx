@@ -25,7 +25,7 @@ function DesktopNav() {
         <PlusGridItem key={href} className="relative flex">
           <Link
             href={href}
-            className="flex items-center px-4 py-3 text-base font-medium text-gray-950 bg-blend-multiply data-[hover]:bg-black/[2.5%]"
+            className="flex items-center px-4 py-3 text-base font-medium text-white bg-blend-multiply data-[hover]:bg-black/[2.5%]"
           >
             {label}
           </Link>
@@ -41,7 +41,7 @@ function MobileNavButton() {
       className="flex size-12 items-center justify-center self-center rounded-lg data-[hover]:bg-black/5 lg:hidden"
       aria-label="Open main menu"
     >
-      <Bars2Icon className="size-6" />
+      <Bars2Icon className="size-6 text-white" />
     </DisclosureButton>
   )
 }
@@ -61,15 +61,15 @@ function MobileNav() {
             }}
             key={href}
           >
-            <Link href={href} className="text-base font-medium text-gray-950">
+            <Link href={href} className="text-base font-medium text-white">
               {label}
             </Link>
           </motion.div>
         ))}
       </div>
       <div className="absolute left-1/2 w-screen -translate-x-1/2">
-        <div className="absolute inset-x-0 top-0 border-t border-black/5" />
-        <div className="absolute inset-x-0 top-2 border-t border-black/5" />
+        <div className="absolute inset-x-0 top-0 border-t border-white/5" />
+        <div className="absolute inset-x-0 top-2 border-t border-white/5" />
       </div>
     </DisclosurePanel>
   )
