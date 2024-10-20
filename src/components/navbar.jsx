@@ -25,7 +25,7 @@ function DesktopNav() {
         <PlusGridItem key={href} className="relative flex">
           <Link
             href={href}
-            className="flex items-center px-4 py-3 text-base font-medium text-white bg-blend-multiply data-[hover]:bg-black/[2.5%]"
+            className="flex items-center px-4 py-3 text-base font-medium text-white bg-blend-multiply data-[hover]:bg-white/[2.5%]"
           >
             {label}
           </Link>
@@ -38,7 +38,7 @@ function DesktopNav() {
 function MobileNavButton() {
   return (
     <DisclosureButton
-      className="flex size-12 items-center justify-center self-center rounded-lg data-[hover]:bg-black/5 lg:hidden"
+      className="flex size-12 items-center justify-center self-center rounded-lg data-[hover]:bg-white/5 lg:hidden"
       aria-label="Open main menu"
     >
       <Bars2Icon className="size-6 text-white" />

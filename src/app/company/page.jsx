@@ -14,19 +14,20 @@ export const metadata = {
 
 function Header() {
   return (
-    <Container className="mt-16">
-      <Heading as="h1">Fortifying Legacy Systems with AI-Powered Cybersecurity</Heading>
-      <Lead className="mt-6 max-w-3xl">
+    <Container className="mt-16 bg-[#1a1a1a] text-white"> {/* Updated background and text color */}
+      <Heading as="h1" className="text-white">Fortifying Legacy Systems with AI-Powered Cybersecurity</Heading>
+      <Lead className="mt-6 max-w-3xl text-white/75"> {/* Updated text color */}
         Pantheon Security offers comprehensive AI-driven cybersecurity solutions tailored to protect legacy systems, bridging the gap between outdated infrastructure and modern security needs.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
-          <h2 className="text-2xl font-medium tracking-tight">The Legacy System Security Challenge</h2>
-          <p className="mt-6 text-sm/6 text-gray-600">
+          <h2 className="text-2xl font-medium tracking-tight text-white"> {/* Updated text color */}
+            The Legacy System Security Challenge
+          </h2>
+          <p className="mt-6 text-sm/6 text-gray-400"> {/* Updated text color */}
             Legacy systems form the backbone of many organizations, but they're often the most vulnerable to cyber threats. These outdated infrastructures create blind spots, making it difficult to identify and mitigate risks comprehensively. Traditional security tools fall short, leaving your critical assets exposed.
-
           </p>
-          <p className="mt-8 text-sm/6 text-gray-600">
+          <p className="mt-8 text-sm/6 text-gray-400"> {/* Updated text color */}
             Cybersecurity costs continue to rise, especially for organizations with outdated infrastructure. AI introduces new threats that require continuous monitoring and adaptation. Pantheon Security is here to address these challenges by offering scalable, cost-effective solutions.
           </p>
         </div>
@@ -93,11 +94,13 @@ function Header() {
           </dl>
         </div> */}
         <div className="max-w-lg">
-          <h2 className="text-2xl font-medium tracking-tight">Our AI-Powered Security Arsenal</h2>
-          <p className="mt-6 text-sm/6 text-gray-600">
+          <h2 className="text-2xl font-medium tracking-tight text-white"> {/* Updated text color */}
+            Our AI-Powered Security Arsenal
+          </h2>
+          <p className="mt-6 text-sm/6 text-gray-400"> {/* Updated text color */}
             Pantheon Security leverages cutting-edge AI technology to safeguard legacy systems:
           </p>
-          <ul className="mt-4 list-disc pl-5 text-sm/6 text-gray-600">
+          <ul className="mt-4 list-disc pl-5 text-sm/6 text-gray-400"> {/* Updated text color */}
             <li>
               <strong>Real-Time Attack Surface Monitoring:</strong> Our AI-driven platform continuously maps and monitors your entire infrastructure, using advanced machine learning models for real-time vulnerability detection across both legacy and modern systems. You’ll have a constant view of your security posture via interactive dashboards.
             </li>
@@ -416,7 +419,7 @@ function Testimonial() {
 
 export default function Company() {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden bg-[#1a1a1a] text-white"> {/* Updated background and text color */}
       <GradientBackground />
       <Container>
         <Navbar />
