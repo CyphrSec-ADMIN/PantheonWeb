@@ -33,7 +33,10 @@ function Hero() {
 Security.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-white/75 sm:text-2xl/8">
-           AI-powered security, bridging the gap between legacy systems and modern threats.
+            An AI-powered suite of tools designed to safeguard legacy systems from modern threats, all managed in one place.
+          </p>
+          <p className="mt-4 max-w-lg text-xl/7 font-medium text-white/75 sm:text-2xl/8">
+            Our AI monitors your entire attack surface 24/7 and proactively shuts down attack vectors.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#" className="text-white">Get started</Button>
@@ -48,8 +51,8 @@ function FeatureSection() {
   return (
     <div className="overflow-hidden bg-gray-900">
       <Container className="pb-24">
-        <Heading as="h2" className="max-w-3xl text-white">
-          Gain full visibility and control over your security landscape, all within a single, unified platform
+        <Heading as="h2" className="max-w-3xl text-white text-lg">
+          Centralize OSINT, detect vulnerabilities, and oversee penetration tests in one solution.
         </Heading>
         <video
           width={1216}
@@ -157,19 +160,20 @@ function DarkBentoSection() {
           />
           <BentoCard
             dark
-            eyebrow="MONITORING"
-            title="Built for 24/7 Protection"
-            description="Our advanced AI enables around-the-clock monitoring and delivers continuous updates, threat detection, and proactive recommendations using the latest natural language processing capabilities."
+            eyebrow="SEAMLESS INTEGRATION"
+            title="AI-Driven Integration for Legacy System"
+            description="Our platform uses AI to seamlessly integrate with legacy systems, allowing you to deploy new security measures without disruption. We make adapting to advanced security effortless, overcoming traditional integration challenges."
             graphic={<LogoTimeline />}
             // `!overflow-visible` is needed to work around a Chrome bug that disables the mask on the graphic.
             className="z-10 !overflow-visible lg:col-span-2 lg:rounded-tr-4xl"
           />
           <BentoCard
             dark
-            eyebrow="SEAMLESS INTEGRATION"
-            title="Legacy Meets Modern Security"
-            description="Our platform integrates effortlessly with your existing infrastructure, allowing you to deploy new security measures without disrupting day-to-day operations."
-              graphic={<LogoCluster />}
+            eyebrow="MONITORING"
+            title="Automation Meets Vigilant Security"
+            description="
+Our platform delivers holistic security with AI-driven monitoring bots that continuously protect against threats like social engineering, malware, credential theft, insider threats, and zero-day exploits, ensuring comprehensive coverage across your infrastructure."
+            graphic={<LogoCluster />}
             className="lg:col-span-2 lg:rounded-bl-4xl"
           />
           <BentoCard
