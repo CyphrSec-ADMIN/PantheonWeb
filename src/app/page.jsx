@@ -23,7 +23,7 @@ export const metadata = {
 
 function Hero() {
   return (
-    <div className="relative bg-gray-900">
+    <div className="relative bg-gray-900 rounded-4xl"> {/* Added rounded-4xl for border radius */}
       <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" />
       <Container className="relative">
         <Navbar />
@@ -49,16 +49,16 @@ Security.
 
 function FeatureSection() {
   return (
-    <div className="overflow-hidden bg-gray-900">
+    <div className="overflow-hidden bg-gray-900 rounded-4xl"> {/* Added rounded-4xl for border radius */}
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl text-white text-lg">
           Centralize OSINT, detect vulnerabilities, and oversee penetration tests in one solution.
         </Heading>
         <video
-          width={1216}
-          height={768}
+          width="100%"
+          height="auto"
           src="/screenshots/heimdall-dashboard-wide.mp4"
-          className="mt-16 h-[36rem] sm:h-auto sm:w-[76rem]"
+          className="mt-16 w-full h-auto rounded-lg"
           loop
           autoPlay
           muted
@@ -138,7 +138,7 @@ function FeatureSection() {
 
 function DarkBentoSection() {
   return (
-    <div className="mx-2 mt-2 rounded-4xl bg-black py-32">
+    <div className="mx-2 mt-2 rounded-4xl bg-[#1a1a1a] py-32"> {/* Changed to a dark gray color */}
       <Container>
         <Subheading dark className="text-white">Pantheon: AI-Powered Defense for Legacy Systems</Subheading>
         <Heading as="h3" dark className="mt-2 max-w-2xl text-white">
@@ -164,7 +164,6 @@ function DarkBentoSection() {
             title="AI-Driven Integration for Legacy System"
             description="Our platform uses AI to seamlessly integrate with legacy systems, allowing you to deploy new security measures without disruption. We make adapting to advanced security effortless, overcoming traditional integration challenges."
             graphic={<LogoTimeline />}
-            // `!overflow-visible` is needed to work around a Chrome bug that disables the mask on the graphic.
             className="z-10 !overflow-visible lg:col-span-2 lg:rounded-tr-4xl"
           />
           <BentoCard
@@ -195,13 +194,13 @@ Our platform delivers holistic security with AI-driven monitoring bots that cont
 
 export default function Home() {
   return (
-    <div className="overflow-hidden bg-black">
+    <div className="overflow-hidden bg-[#1a1a1a]"> {/* Changed to a dark gray color */}
       <Hero />
       <main>
         <Container className="mt-10">
           {/* <LogoCloud /> */}
         </Container>
-        <div className="bg-gradient-to-b from-gray-900 from-50% to-black py-32">
+        <div className="bg-gradient-to-b from-gray-900 from-50% to-[#1a1a1a] py-32 rounded-4xl"> {/* Updated gradient to match new color */}
           <FeatureSection />
           {/* <BentoSection /> */}
         </div>
