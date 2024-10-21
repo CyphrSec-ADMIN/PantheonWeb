@@ -15,7 +15,7 @@ export const metadata = {
 function Header() {
   return (
     <Container className="mt-16 bg-[#1a1a1a] text-white"> {/* Updated background and text color */}
-      <Heading as="h1" className="text-white">Fortifying Legacy Systems with AI-Powered Cybersecurity</Heading>
+      <Heading as="h1" className="text-white">Secure Legacy Systems with AI</Heading>
       <Lead className="mt-6 max-w-3xl text-white/75"> {/* Updated text color */}
         Pantheon Security offers comprehensive AI-driven cybersecurity solutions tailored to protect legacy systems, bridging the gap between outdated infrastructure and modern security needs.
       </Lead>
