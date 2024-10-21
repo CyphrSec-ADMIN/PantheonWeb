@@ -50,8 +50,8 @@ function FeatureSection() {
   return (
     <div className="overflow-hidden bg-gray-900 rounded-4xl"> {/* Added rounded-4xl for border radius */}
       <Container className="pb-24">
-        <Heading as="h2" className="max-w-3xl text-white text-lg">
-          Centralize OSINT, detect vulnerabilities, and oversee penetration tests in one solution.
+        <Heading as="h2" className="max-w-3xl text-white text-2xl animate-fadeIn">
+          A comprehensive view of your entire attack surface.
         </Heading>
         <video
           width="100%"
