@@ -152,7 +152,8 @@ function DarkBentoSection() {
             title="Comprehensive AI Monitoring All in One Place"
             description="Pantheon Security brings together all your cybersecurity needs into a unified platform, including Attack Surface Management, OSINT, vulnerability detection, and testing tools. The entire process—from interaction to deployment and testing—occurs in one seamless environment, simplifying management and boosting efficiency.."
             graphic={
-              <div className="h-80 bg-[url(/screenshots/networking.png)] bg-[size:851px_344px] bg-no-repeat" />
+              
+              <Map />
             }
             fade={['top']}
             className="max-lg:rounded-t-4xl lg:col-span-4 lg:rounded-tl-4xl"
@@ -180,7 +181,7 @@ Our platform delivers holistic security with AI-driven monitoring bots that cont
             title="Respond Faster Than Ever"
             description="Pantheon’s AI-driven threat response system automatically detects and mitigates threats in real time, significantly reducing the time between detection and resolution."
             graphic={
-              <div className="h-80 bg-[url(/screenshots/engagement.png)] bg-[size:851px_344px] bg-no-repeat" />
+              <LinkedAvatars />
             }
             fade={['top']}
             className="max-lg:rounded-b-4xl lg:col-span-4 lg:rounded-br-4xl"
