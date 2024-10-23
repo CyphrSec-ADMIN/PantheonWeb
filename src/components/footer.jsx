@@ -51,7 +51,7 @@ function SitemapLink(props) {
 function Sitemap() {
   return (
     <>
-      <div>
+      {/* <div>
         <SitemapHeading>Quick Links</SitemapHeading>
         <SitemapLinks>
           <SitemapLink href="#">Solutions</SitemapLink>
@@ -78,7 +78,7 @@ function Sitemap() {
         <p>Email: support@pantheonsecurity.com</p>
         <p>Phone: +1 (800) 123-4567</p>
         <p>Address: 1234 Cyber Ave, Security City, ST 56789</p>
-      </div>
+      </div> */}
     </>
   )
 }
@@ -153,24 +153,13 @@ function Copyright() {
 
 export function Footer() {
   return (
-    <footer>
+    <footer className="rounded-lg">
       <Gradient className="relative">
         <div className="absolute inset-2 rounded-4xl bg-white/80" />
         <Container>
           <CallToAction />
           <PlusGrid className="pb-16">
-            <PlusGridRow>
-              <div className="grid grid-cols-2 gap-y-10 pb-6 lg:grid-cols-6 lg:gap-8">
-                <div className="col-span-2 flex">
-                  <PlusGridItem className="pt-6 lg:pb-6">
-                    {/* <Logo className="h-9" /> */}
-                  </PlusGridItem>
-                </div>
-                <div className="col-span-2 grid grid-cols-2 gap-x-8 gap-y-12 lg:col-span-4 lg:grid-cols-subgrid lg:pt-6">
-                  <Sitemap />
-                </div>
-              </div>
-            </PlusGridRow>
+            
             <PlusGridRow className="flex justify-between">
               <div>
                 <PlusGridItem className="py-3">
